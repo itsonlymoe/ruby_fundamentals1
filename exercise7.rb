@@ -6,10 +6,10 @@ students = {
 #created a hash
 students[:cohort4] = "43"
 
-students.each do | cohort, number |
-	puts "#{cohort}: #{number}"
-end
+# students.each do | cohort, number |
+# 	puts "#{cohort}: #{number}"
+# end
 
-
+puts students.keys 
 
 
